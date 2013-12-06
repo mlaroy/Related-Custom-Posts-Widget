@@ -76,9 +76,9 @@ class RelatedPostWidget extends WP_Widget
        
         // arguments for the query
         $args = array(
-        'post_type' => 'st_kb', // 'custom_post_type' goes here
+        'post_type' => 'st_kb', // the custom knowledge base post type
         'post_status' => 'publish',
-        'posts_per_page' => 3, // you may edit this number
+        'posts_per_page' => 3, 
         'orderby' => 'rand', // displays posts randomly
         'tax_query' => array(
             array(
