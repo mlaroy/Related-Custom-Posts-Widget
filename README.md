@@ -1,4 +1,4 @@
-Related-Custom-Posts-Widget
+KnowledgeBase-Related-Posts-Widget
 ===========================
 
 This plugin for WordPress creates a widget that will display a list of custom posts, related by category.  
